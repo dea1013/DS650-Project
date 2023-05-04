@@ -20,26 +20,26 @@
 - `score_CWUR`: Score used to create CWUR ranking
 
 ### Feature Columns for Diversity Index
-- `international_students_THE`: 
-- `UGDS_score`
-- `female_male_score`
+- `international_students_THE`: International outlook score
+- `UGDS_score`: Variance of race distribution (inverse)
+- `female_male_score`: Variance of gender distribution (inverse)
 
 ### Diversity Columns
-- `diversity_index`
-- `diversity_rank`
-- `diversity_year_rank`
+- `diversity_index`: Weighted average of scores from feature columns
+- `diversity_rank`: Rank based on score from diversity index
+- `diversity_year_rank`: Rank based on score from diversity index (partitioned by year)
 
 ### UGDS Score Feature Engineering Columns
-- `UGDS_WHITE`
-- `UGDS_BLACK`
-- `UGDS_HISP`
-- `UGDS_ASIAN`
-- `UGDS_AIAN`
-- `UGDS_NHPI`
-- `UGDS_2MOR`
-- `UGDS_NRA`
-- `UGDS_UNKN`
+- `UGDS_WHITE`: Percentage enrolled who are White
+- `UGDS_BLACK`: Percentage enrolled who are Black
+- `UGDS_HISP`: Percentage enrolled who are Hispanic
+- `UGDS_ASIAN`: Percentage enrolled who are Asian
+- `UGDS_AIAN`: Percentage enrolled who are American Indian/Alaska Native
+- `UGDS_NHPI`: Percentage enrolled who are Native Hawaiian/Pacific Islander
+- `UGDS_2MOR`: Percentage enrolled who are two or more races
+- `UGDS_NRA`: Percentage enrolled who are non-resident aliens
+- `UGDS_UNKN`: Percentage enrolled who have unknown race
 
 ### Female Male Score Feature Engineering Columns
-- `male_proportion`
-- `female_proportion`
+- `male_proportion`: Percentage who are male
+- `female_proportion`: Percentage who are female
