@@ -12,15 +12,15 @@
   - `score`: Final value used for diversity index (`scaled * weight`)
 
 ### Existing Ranking/Score Columns
-- `world_rank_THE`
-- `world_rank_RUR`
-- `world_rank_CWUR`
-- `score_THE`
-- `score_RUR`
-- `score_CWUR`
+- `world_rank_THE`: Ranking from Times Higher Education (THE)
+- `world_rank_RUR`: Ranking from Round University Ranking (RUR)
+- `world_rank_CWUR`: Ranking from Center for Worled University Ranking (RUR)
+- `score_THE`: Score used to create THE ranking
+- `score_RUR`: Score used to create RUR ranking
+- `score_CWUR`: Score used to create CWUR ranking
 
 ### Feature Columns for Diversity Index
-- `international_students_THE`
+- `international_students_THE`: 
 - `UGDS_score`
 - `female_male_score`
 
