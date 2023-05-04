@@ -12,16 +12,34 @@
   - `score`: Final value used for diversity index (`scaled * weight`)
 
 ### Existing Ranking/Score Columns
-- 
+- `world_rank_THE`
+- `world_rank_RUR`
+- `world_rank_CWUR`
+- `score_THE`
+- `score_RUR`
+- `score_CWUR`
 
 ### Feature Columns for Diversity Index
-- 
+- `international_students_THE`
+- `UGDS_score`
+- `female_male_score`
 
 ### Diversity Columns
--
+- `diversity_index`
+- `diversity_rank`
+- `diversity_year_rank`
 
 ### UGDS Score Feature Engineering Columns
-- 
+- `UGDS_WHITE`
+- `UGDS_BLACK`
+- `UGDS_HISP`
+- `UGDS_ASIAN`
+- `UGDS_AIAN`
+- `UGDS_NHPI`
+- `UGDS_2MOR`
+- `UGDS_NRA`
+- `UGDS_UNKN`
 
 ### Female Male Score Feature Engineering Columns
-- 
+- `male_proportion`
+- `female_proportion`
