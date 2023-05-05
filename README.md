@@ -14,7 +14,7 @@
 ### Existing Ranking/Score Columns
 - `world_rank_THE`: Ranking from Times Higher Education (THE)
 - `world_rank_RUR`: Ranking from Round University Ranking (RUR)
-- `world_rank_CWUR`: Ranking from Center for Worled University Ranking (RUR)
+- `world_rank_CWUR`: Ranking from Center for World University Ranking (RUR)
 - `score_THE`: Score used to create THE ranking
 - `score_RUR`: Score used to create RUR ranking
 - `score_CWUR`: Score used to create CWUR ranking
@@ -29,7 +29,9 @@
 - `diversity_rank`: Rank based on score from diversity index
 - `diversity_year_rank`: Rank based on score from diversity index (partitioned by year)
 
-### UGDS Score Feature Engineering Columns
+### Feature Engineering Columns
+
+#### UGDS Score
 - `UGDS_WHITE`: Percentage enrolled who are White
 - `UGDS_BLACK`: Percentage enrolled who are Black
 - `UGDS_HISP`: Percentage enrolled who are Hispanic
@@ -40,6 +42,6 @@
 - `UGDS_NRA`: Percentage enrolled who are non-resident aliens
 - `UGDS_UNKN`: Percentage enrolled who have unknown race
 
-### Female Male Score Feature Engineering Columns
+#### Female Male Score
 - `male_proportion`: Percentage who are male
 - `female_proportion`: Percentage who are female
