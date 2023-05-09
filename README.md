@@ -46,3 +46,14 @@
 #### UGDS Gender Score
 - `UGDS_MEN`: Percentage who are male
 - `UGDS_WOMEN`: Percentage who are female
+
+#### First Gen Score
+- `PAR_ED_PCT_1STGEN`: Percentage who are first generation
+- `PAR_ED_PCT_NOT_1STGEN`: Percentage who are not first generation
+
+#### Income Score (Aided Students)
+- `INC_PCT_LO`: Percentage whose family income is $0-$30,000
+- `INC_PCT_M1`: Percentage whose family income is $30,001-$48,000
+- `INC_PCT_M2`: Percentage whose family income is $48,001-$75,000
+- `INC_PCT_H1`: Percentage whose family income is $75,001-$110,000
+- `INC_PCT_H2`: Percentage whose family income is $110,001+
