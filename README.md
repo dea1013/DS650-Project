@@ -20,9 +20,10 @@
 - `score_CWUR`: Score used to create CWUR ranking
 
 ### Feature Columns for Diversity Index
-- `international_students_THE`: International outlook score
-- `UGDS_score`: Variance of race distribution (inverse)
-- `female_male_score`: Variance of gender distribution (inverse)
+- `UGDS_race_score`: Variance of race distribution (inverse)
+- `UGDS_gender_score`: Variance of gender distribution (inverse)
+- `first_gen_score`: Variance of first generation distribution (inverse)
+- `income_score`: Variance of income distribution (inverse)
 
 ### Diversity Columns
 - `diversity_index`: Weighted average of scores from feature columns
@@ -31,7 +32,7 @@
 
 ### Feature Engineering Columns
 
-#### UGDS Score
+#### UGDS (Undergraduate Degree Seeking) Score
 - `UGDS_WHITE`: Percentage enrolled who are White
 - `UGDS_BLACK`: Percentage enrolled who are Black
 - `UGDS_HISP`: Percentage enrolled who are Hispanic
@@ -42,6 +43,6 @@
 - `UGDS_NRA`: Percentage enrolled who are non-resident aliens
 - `UGDS_UNKN`: Percentage enrolled who have unknown race
 
-#### Female Male Score
-- `male_proportion`: Percentage who are male
-- `female_proportion`: Percentage who are female
+#### UGDS Gender Score
+- `UGDS_MEN`: Percentage who are male
+- `UGDS_WOMEN`: Percentage who are female
